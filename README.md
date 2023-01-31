@@ -1,2 +1,2 @@
 # PaperCutSoftware
-Install the Mobility Print Client and available Cloud Print queues without user intervention.
+Various methods to enable helpful functionality with PaperCut Software products.
