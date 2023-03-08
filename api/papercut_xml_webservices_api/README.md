@@ -15,7 +15,7 @@ API methods are accessed by NG/MF's `rpc/api/xmlrpc` endpoint:
 |--------------------------------------------|---------------------------------------------|
 | `http://[server_name]:9191/rpc/api/xmlrpc` | `https://[server_name]:9192/rpc/api/xmlrpc` |
 
-Ensure you are making your API call from [an authorized address](https://www.papercut.com/help/manuals/ng-mf/common/tools-web-services/#tools-web-services-examples).
+Ensure you are making your API call from [an authorized address](#security).
 
 ## How-To
 
