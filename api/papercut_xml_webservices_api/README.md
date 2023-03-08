@@ -3,7 +3,7 @@
 [![image](https://img.shields.io/pypi/v/papercut_xml_webservices_api.svg)](https://pypi.python.org/pypi/papercut_xml_webservices_api)
 
 * Free software: MIT license
-* [Documentation](https://github.com/safehome-jdev/PaperCutSoftware/blob/main/API/README.md)
+* [Documentation](https://github.com/safehome-jdev/PaperCutSoftware/blob/main/api/papercut_xml_webservices_api/README.md)
 * [PaperCut API Docs](https://www.papercut.com/help/manuals/ng-mf/common/tools-web-services/)
 
 ## Overview
