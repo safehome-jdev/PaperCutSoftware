@@ -4,15 +4,11 @@
 
 from setuptools import find_packages, setup
 
-with open("./README.md") as readme_file:
+with open("./README.md", 'r') as readme_file:
     readme = readme_file.read()
 
-with open("./HISTORY.md") as history_file:
+with open("./HISTORY.md", 'r') as history_file:
     history = history_file.read()
-
-# requirements = []
-
-# test_requirements = []
 
 setup(
     author="Jordan Reyes",
@@ -27,18 +23,16 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     description="PaperCut NG/MF server's API uses XML-RPC. This library utilizes Python's [stable XMLRPC library",
-    # install_requires=requirements,
     license="MIT license",
     long_description=readme + "\n\n" + history,
+    long_description_content_type='text/markdown',
     include_package_data=True,
-    keywords="papercut_xml_webservices_api",
+    keywords=["papercut", "xml", "api", "NG", "MF"],
     name="papercut_xml_webservices_api",
     packages=find_packages(
         include=["papercut_xml_webservices_api", "papercut_xml_webservices_api.*"]
     ),
-    # test_suite="tests",
-    # tests_require=test_requirements,
-    url="https://github.com/safehome_jdev/PaperCutSoftware/API/papercut_xml_webservices_api",
-    version="0.1.0",
-    zip_safe=False,
+    url="https://github.com/safehome_jdev/PaperCutSoftware",
+    version="0.2.5",
+    zip_safe=True
 )

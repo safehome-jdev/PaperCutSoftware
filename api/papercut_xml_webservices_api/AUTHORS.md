@@ -1,13 +1,10 @@
-=======
-Credits
-=======
+# Credits
 
-Development Lead
-----------------
+## Development Lead
+---
+- Jordan Reyes <jreyes@safehomedev.com>
 
-* Jordan Reyes <jreyes@safehomedev.com>
-
-Contributors
-------------
+## Contributors
+---
 
 None yet. Why not be the first?
